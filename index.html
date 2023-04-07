@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digicorper Simple Interest Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="brand">
+        <a href="">SolveMath</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="">Home</a></li>
+          <li class="nav-item"><a href="">Blog</a></li>
+          <li class="nav-item"><a href="">Contact</a></li>
+          <li class="nav-item"><a href="">About Us</a></li>
+          <li class="nav-item"><a href="">Sign-up / Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="banner-area">
+      <div class="content-description">
+        <h1>Simple Interest</h1>
+        <p>
+          Simple interest is the interest charge on borrowing that's calculated
+          using an original principal amount only and an interest rate that
+          never changes. It does not involve compounding, where borrowers end up
+          paying interest on principal and interest that grows over multiple
+          payment periods.
+        </p>
+        <a href="#Calculate"><button class="sect-btn">GET STARTED</button></a>
+      </div>
+      <div class="banner-img">
+        <img src="images/images (7).jpeg" alt="" />
+      </div>
+    </section>
+
+    <div class="container">
+      <form action=""></form>
+    </div>
+
+    <section id="Calculate" class="cal-area">
+      <h2 class="heading1">Simple Interest Calculator</h2>
+
+      <form action="" class="form-class">
+        <label for="principal-amount">Principal Amount :</label>
+        <input
+          class="princep"
+          id="principal-amount"
+          type="number"
+          placeholder="enter the amount"
+        /><br />
+
+        <label for="Interest">Interest(%) :</label>
+        <input
+          class="interst"
+          id="interest"
+          type="number"
+          placeholder="enter the interest"
+        /><br />
+
+        <label for="tperiod">Time Period(in year) :</label>
+        <input
+          class=""
+          id="period"
+          type="number"
+          placeholder="enter the year"
+        /><br />
+        <button
+          onclick="calculator();"
+          class="btn"
+          type="button"
+          id="submitButton"
+        >
+          CALCULATE
+        </button>
+      </form>
+
+      <div class="result">
+        <h2 id="output"></h2>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <ul class="nav-items">
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">Blog</a></li>
+        <li class="nav-item"><a href="">Contact</a></li>
+        <li class="nav-item"><a href="">About Us</a></li>
+        <li class="nav-item"><a href="">SignUp </a></li>
+      </ul>
+
+      <p>&copy;2023 SolveMath</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
