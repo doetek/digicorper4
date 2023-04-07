@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100vh;
+  width: 100%;
 }
 
 .main-header {
@@ -238,6 +238,10 @@ button {
 /*DESKTOP SITE*/
 
 @media (min-width: 750px) {
+    body {
+        width: 100%;
+      }
+      
   .brand {
     display: inline-block;
     padding: 10px;
