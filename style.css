@@ -5,12 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
 .main-header {
   background: #210464;
   width: 100%;
@@ -146,14 +140,13 @@ img {
   width: 100%;
   margin-top: 50px;
   background: #0000000a;
-  height: 700px;
 }
 
 .heading1 {
   text-align: center;
   padding: 15px;
   background: #210464;
-  width: 75%;
+  width: 400px;
   margin: auto;
   color: white;
   border-radius: 5px;
@@ -225,7 +218,6 @@ button {
 
 .main-footer {
   width: 100%;
-  height: 100px;
   background: #210464;
   margin-top: 190px;
   text-align: center;
@@ -240,10 +232,6 @@ button {
 /*DESKTOP SITE*/
 
 @media (min-width: 750px) {
-    body {
-        width: 100%;
-      }
-      
   .brand {
     display: inline-block;
     padding: 10px;
@@ -316,13 +304,4 @@ button {
     width: 30%;
     height: 90px;
   }
-
-  .main-footer {
-    width: 100%;
-    height: 100px;
-    background: #210464;
-    text-align: center;
-    padding: 10px;
-  }
-  
 }
